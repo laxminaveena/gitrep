@@ -1,0 +1,88 @@
+Microsoft Windows [Version 10.0.19045.5737]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\gandham.l\Desktop\git>git init
+Initialized empty Git repository in C:/Users/gandham.l/Desktop/git/.git/
+
+C:\Users\gandham.l\Desktop\git>git add .
+
+C:\Users\gandham.l\Desktop\git>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   file1.txt
+
+
+C:\Users\gandham.l\Desktop\git>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   file1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        f2.txt
+
+
+C:\Users\gandham.l\Desktop\git>git add .
+
+C:\Users\gandham.l\Desktop\git>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   f2.txt
+        new file:   file1.txt
+
+
+C:\Users\gandham.l\Desktop\git>git commit -m "comited"
+[master (root-commit) 74b03a7] comited
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 f2.txt
+ create mode 100644 file1.txt
+
+C:\Users\gandham.l\Desktop\git>git remote add origin https://github.com/laxminaveena/gitrep.git
+
+C:\Users\gandham.l\Desktop\git>git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 215 bytes | 107.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/laxminaveena/gitrep.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\gandham.l\Desktop\git>git branch navv
+
+C:\Users\gandham.l\Desktop\git>git branch
+* master
+  navv
+
+C:\Users\gandham.l\Desktop\git>git switch navv
+Switched to branch 'navv'
+
+C:\Users\gandham.l\Desktop\git>git branch
+  master
+* navv
+
+C:\Users\gandham.l\Desktop\git>git checkout -b pran
+Switched to a new branch 'pran'
+
+C:\Users\gandham.l\Desktop\git>git branch
+  master
+  navv
+* pran
+
+C:\Users\gandham.l\Desktop\git>
+
+C:\Users\gandham.l\Desktop\git>
